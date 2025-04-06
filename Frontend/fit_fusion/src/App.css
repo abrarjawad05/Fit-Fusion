@@ -11,9 +11,15 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
+.logo.react {
+  /* Base styles for react logo */
+}
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -27,8 +33,9 @@
   }
 }
 
+/* Flattened media query */
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
+  .logo-spin-animation {
     animation: logo-spin infinite 20s linear;
   }
 }
