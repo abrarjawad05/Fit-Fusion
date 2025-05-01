@@ -1,10 +1,10 @@
 const express = require('express')
 const mongoose = require('mongoose');
 const app = express()
-const port = process.env.PORT
+const PORT = process.env.PORT || 3500
 
 app.use(express.json())
 
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`)
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`)
 })
