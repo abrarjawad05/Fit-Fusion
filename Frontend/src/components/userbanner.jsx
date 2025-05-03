@@ -5,7 +5,7 @@ function Userbanner() {
     const { user, logout, loading } = useContext(AuthContext);
     console.log(user);
 
-    if (loading) return <>Loading ....</>;
+    if (loading || user ) return <>Loading ....</>;
 
     return (
         <div className="max-w-screen-lg mx-auto mt-6 group relative block h-64 sm:h-80 lg:h-96">

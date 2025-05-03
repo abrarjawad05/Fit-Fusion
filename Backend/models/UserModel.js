@@ -1,13 +1,21 @@
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
+const bcrypt = require('bcryptjs');
+const moment = require('moment');
 
 const userSchema = new mongoose.Schema({
-    name: {
+    username: {
         type: String,
         required: true,
+        unique: true,
+        trim: true,
     },
     email: {
+        type: String,
+        required: true,
+        unique: true,
+        trim: true,
+    },
+    phoneNumber: {
         type: String,
         required: true,
         unique: true,
@@ -16,36 +24,65 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    age: {
-        type: Number,
+    dob: {
+        type: Date,
         required: true,
     },
     height: {
         type: Number,
-        required: true,
     },
     weight: {
-        type: Number,
-        required: true,
-    }
-}, {
-    timestamps: true //Automatically add createdAt and updatedAt fields
+        type: Number, 
+    },
+}, { 
+    timestamps: true,
+    toJSON: { virtuals: true }, 
+    toObject: { virtuals: true },
 });
-userSchema.pre('save', async function (next) {
-    if (!this.isModified('password')) {
-        return next();
+
+
+userSchema.virtual('age').get(function () {
+    const now = moment();
+    const birthDate = moment(this.dob);
+    return now.diff(birthDate, 'years');
+});
+
+userSchema.virtual('BMI').get(function () {
+    if (this.height && this.weight) {
+        const heightInMeters = this.height / 100;
+        return (this.weight / (heightInMeters ** 2)).toFixed(2);
     }
-    const salt = await bcrypt.genSalt(10);
-    this.password = await bcrypt.hash(this.password, salt);
+    return null;
+});
+
+userSchema.virtual('calories').get(function () {
+    const heightInCm = this.height;
+    const weightInKg = this.weight;
+    const ageInYears = this.age;
+
+    const BMR = 10 * weightInKg + 6.25 * heightInCm - 5 * ageInYears + 5;
+    const maintenanceCalories = BMR * 1.55; 
+    return Math.round(maintenanceCalories);
+});
+
+
+userSchema.pre('save', async function (next) {
+    if (this.isModified('password')) {
+        const salt = await bcrypt.genSalt(10);
+        this.password = await bcrypt.hash(this.password, salt);
+    }
     next();
 });
-userSchema.methods.comparePassword = async function (password) {
-    return await bcrypt.compare(password, this.password);
-};
-userSchema.methods.generateAuthToken = function () {
-    const token = jwt.sign({ _id: this._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
-    return token;
+
+// Add method to compare password
+userSchema.methods.comparePassword = async function(candidatePassword) {
+    try {
+        return await bcrypt.compare(candidatePassword, this.password);
+    } catch (error) {
+        throw new Error(error);
+    }
 };
 
 const User = mongoose.model('User', userSchema);
+
 module.exports = User;
