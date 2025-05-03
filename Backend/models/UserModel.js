@@ -27,11 +27,10 @@ const userSchema = new mongoose.Schema({
     weight: {
         type: Number,
         required: true,
-    },
-    
-        timestamps: true, //Automatically add createdAt and updatedAt fields
     }
-);
+}, {
+    timestamps: true //Automatically add createdAt and updatedAt fields
+});
 userSchema.pre('save', async function (next) {
     if (!this.isModified('password')) {
         return next();

@@ -1,4 +1,4 @@
-const User = require('../model/UserModel');
+const User = require('../models/UserModel');
 //const authMiddleware = require('../middleware/AuthMiddleware');   
 
 exports.createUser = async (req, res) => {
