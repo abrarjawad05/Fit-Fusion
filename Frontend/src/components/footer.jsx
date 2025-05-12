@@ -89,7 +89,7 @@ function Footer() {
         </div>
 
         <p className="mt-12 text-center text-sm text-gray-500 lg:text-right dark:text-gray-400">
-          Copyright &copy; 2023 FitFusion. All rights reserved.
+          Copyright &copy; 2025 FitFusion. All rights reserved.
         </p>
       </div>
     </footer>
