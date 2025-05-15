@@ -58,7 +58,7 @@ function Shop() {
       name: "Cellucor C4 Original",
       category: "Pre-Workout",
       price: 3199,
-      imageUrl: "https://www.gymsupplementscenterbangladesh.com/images/product/41.jpg",
+      imageUrl: "https://excartbd.com/cdn/shop/products/C4-Original-Pre-Workout-Powder-30-servings-icy-blue-razz-at-excartbd.com_700x700.jpg?v=1669142591",
       buyLink: "https://www.gymsupplementscenterbangladesh.com/view/details/Pre-Workout/41",
     },
     {
@@ -66,7 +66,7 @@ function Shop() {
       name: "BSN N.O.-Xplode",
       category: "Pre-Workout",
       price: 3500,
-      imageUrl: "https://gymsupplementsbd.com/wp-content/uploads/2020/07/NO-Xplode.jpg",
+      imageUrl: "https://gymsupplementsbd.com/wp-content/uploads/2021/07/no-xplode-30-serving-05-600x600.jpg",
       buyLink: "https://gymsupplementsbd.com/product/no-xplode/",
     },
     {
