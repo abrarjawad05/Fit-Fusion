@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Toaster } from 'sonner';
 
 import HomePage from "./pages/homepage";
@@ -23,6 +23,9 @@ import Gymmappage from "./pages/gymmappage";
 import Burntcalpage from "./pages/burntcalpage";
 import CaloriesTrackerpage from "./pages/calorietracker";
 import WaterIntakePage from './pages/WaterIntakePage';
+import AboutUsPage from "./pages/aboutpage";
+import ServicesPage from "./pages/service";
+import ContactPage from "./pages/contactpage";
 
 function App() {
     return (
@@ -100,7 +103,9 @@ function App() {
                         </ProtectedRoute>
                     } />
                 <Route path="/water-intake" element={<WaterIntakePage />} />
-
+                <Route path="/about" element ={<AboutUsPage />} />
+                <Route path="/services" element ={<ServicesPage />} />
+                <Route path="/contact" element ={<ContactPage />} />
                 <Route path="*" element={<Notfoundpage />} />
 
             </Routes>
