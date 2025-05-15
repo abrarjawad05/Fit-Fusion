@@ -41,7 +41,7 @@ function Shop() {
       name: "Muscletech Platinum Multivitamin",
       category: "Vitamins",
       price: 1990,
-      imageUrl: "https://bdsupplementstore.com/wp-content/uploads/2020/07/Muscletech-Platinum-Multivitamin.jpg",
+      imageUrl: "https://www.muscletech.com/cdn/shop/files/mt-platinum-multi-vitamin-90-count.png?v=1742823408&width=1024",
       buyLink: "https://bdsupplementstore.com/product/muscletech-platinum-multivitamin-bd/",
     },
     {
