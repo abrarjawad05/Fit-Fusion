@@ -15,13 +15,13 @@ const recipes = [
   },
   {
     title: "Chickpea Salad Sandwich",
-    image: "https://www.eatingwell.com/thmb/1bF-5m1vKtCXbkm_KJ9w4T_JE9M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chickpea-salad-sandwich-dcb7d1017c8f4c51b91ad5c4c52d52a3.jpg",
+    image: "https://www.simplyrecipes.com/thmb/ndLcT6uW2fMh3p7o3jUY-72p01g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__04__Chickpea-Salad-Sandwiches-LEAD-3b-641ebb0556ed423a8dd463040bbf36ee.jpg",
     description: "A vegetarian protein-packed sandwich for lunch.",
     instructions: "1. Mash chickpeas. 2. Mix with yogurt, mustard, celery, onion. 3. Serve on whole-grain bread with lettuce and tomato."
   },
   {
     title: "Turkey Taco Lettuce Wraps",
-    image: "https://www.eatingwell.com/thmb/qKrsovz6TtwFgEiIgrjGHfMbw9A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/turkey-taco-lettuce-wraps-62b9e703d2f64fdd947ba8d3b4e0dd1d.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb6DldSY1WIhEYGKf7sKqAXYMKwJP62DwGkQ&s",
     description: "Low-carb tacos using lettuce wraps instead of tortillas.",
     instructions: "1. Brown turkey with taco seasoning. 2. Serve in romaine lettuce leaves. 3. Top with salsa, avocado, and cheese."
   },
