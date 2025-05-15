@@ -8,7 +8,7 @@ function Shop() {
       name: "Optimum Nutrition Gold Standard Whey",
       category: "Protein",
       price: 5599,
-      imageUrl: "https://www.gymsupplementscenterbangladesh.com/images/product/89.jpg",
+      imageUrl: "https://i5.walmartimages.com/seo/Optimum-Nutrition-Gold-Standard-100-Whey-Protein-Powder-French-Vanilla-Creme-2-lb-29-Servings_d7f0bdcd-5f1f-4412-82a1-5432147c7abc_1.a4d5207909f2a0e605580e6b9b18ec1c.jpeg",
       buyLink: "https://www.gymsupplementscenterbangladesh.com/view/details/Protein/89",
     },
     {
