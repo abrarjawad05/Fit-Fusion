@@ -33,7 +33,7 @@ function Shop() {
       name: "Optimum Nutrition Opti-Men",
       category: "Vitamins",
       price: 3490,
-      imageUrl: "https://bdsupplementstore.com/wp-content/uploads/2020/07/Opti-Men-Multivitamin.jpg",
+      imageUrl: "https://www.gymsupplementscenterbangladesh.com/uploads/product/qqqq.jpg",
       buyLink: "https://bdsupplementstore.com/product/opti-men-multivitamin-in-bangladesh/",
     },
     {
