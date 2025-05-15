@@ -24,7 +24,7 @@ function Shop() {
       name: "Dymatize ISO 100",
       category: "Protein",
       price: 5000,
-      imageUrl: "https://gymsupplementsbd.com/wp-content/uploads/2020/07/Dymatize-ISO-100.jpg",
+      imageUrl: "https://www.powerbody.co.uk/media/catalog/product/cache/3/og_image/image_2017-11-15_5a0c194b990d2.jpg",
       buyLink: "https://gymsupplementsbd.com/product/dymatize-iso-100/",
     },
     // Vitamins Products
@@ -33,7 +33,7 @@ function Shop() {
       name: "Optimum Nutrition Opti-Men",
       category: "Vitamins",
       price: 3490,
-      imageUrl: "https://bdsupplementstore.com/wp-content/uploads/2020/07/Opti-Men-Multivitamin.jpg",
+      imageUrl: "https://www.gymsupplementscenterbangladesh.com/uploads/product/qqqq.jpg",
       buyLink: "https://bdsupplementstore.com/product/opti-men-multivitamin-in-bangladesh/",
     },
     {
