@@ -3,7 +3,7 @@ import React from 'react';
 const recipes = [
   {
     title: "Lemon-Garlic Chicken with Green Beans",
-    image: "https://www.eatingwell.com/thmb/QMZf5W_Jw-QXEVsCKpWXzyaPNXU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/lemon-garlic-chicken-green-beans-9c28b7d4b07c4d509c3e496bd97e60d1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgYRSeVPryBM7q31x3E8dWxsWaEtMM2g21gA&s",
     description: "Simple pan-seared chicken with bright lemon and garlic.",
     instructions: "1. Season chicken with salt, pepper, garlic. 2. Sear in olive oil. 3. Add lemon juice and green beans. 4. Cook until chicken is done."
   },
