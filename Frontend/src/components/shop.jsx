@@ -16,7 +16,7 @@ function Shop() {
       name: "Muscletech Nitrotech 100% Whey Gold",
       category: "Protein",
       price: 5500,
-      imageUrl: "https://www.nutritiondepot.com.bd/wp-content/uploads/2020/07/Muscletech-Nitrotech-100-Whey-Gold-Double-Rich-Chocolate-2-Lbs.jpg",
+      imageUrl: "https://www.gymsupplementscenterbangladesh.com/uploads/product/057776be60caed1eb5d32011515b33f3.jpg",
       buyLink: "https://www.nutritiondepot.com.bd/product/muscletech-nitrotech-100-whey-gold-double-rich-chocolate-2-lbs/",
     },
     {
