@@ -57,67 +57,66 @@ const recipes = [
   },
   {
     title: "Vegetable Soup",
-    image: "https://www.eatingwell.com/thmb/ZfFqLGd19uXOxWOpW3VZrbH_yaY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vegetable-soup-61e0e48e7efc406a8f7a40c3614430c6.jpg",
+    image: "https://downshiftology.com/wp-content/uploads/2023/09/Vegetable-Soup-main-500x375.jpg",
     description: "Hearty, healthy soup loaded with seasonal vegetables.",
     instructions: "1. Sauté onions and garlic. 2. Add carrots, potatoes, tomatoes. 3. Add broth and simmer 30 mins. 4. Add spinach at end."
   },
   {
     title: "Tuna Avocado Salad",
-    image: "https://www.eatingwell.com/thmb/yRBGJKUPPt-Q9m5aQk7pE5Bcn9g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tuna-avocado-salad-d30e2966619d4d759a221b98df80c34e.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQeI378uiSwSQGNYXQLfEpAB2cGD8BR3u0mw&s",
     description: "A no-mayo, low-carb tuna salad.",
     instructions: "1. Mix tuna with avocado, cucumber, lime juice. 2. Add salt, pepper. 3. Serve chilled on lettuce or toast."
   },
   {
     title: "Grilled Chicken Caesar Salad",
-    image: "https://www.eatingwell.com/thmb/DQ6oCNsLnmZcWcz5hV3ZRXjcNXY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-chicken-caesar-salad-1b3f0d0974aa4d24914d216cd155c33e.jpg",
-    description: "Classic Caesar made lighter with grilled chicken.",
+    image: "https://www.midwestliving.com/thmb/0zoWWlqQHVMXtKOewJh6IS2xMZM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/KH_011924_MDWL0184_preview-fd69d6e536bc4bda94d2fc1ceee434d9.jpg",
     instructions: "1. Grill chicken. 2. Toss romaine, croutons, and dressing. 3. Top with sliced chicken and Parmesan."
   },
   {
     title: "Stuffed Bell Peppers",
-    image: "https://www.eatingwell.com/thmb/O-FGJfsI8bLxdtzyLd5_6LzFTqU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/stuffed-bell-peppers-1ae69d888a6846df803f7d3c887f7a91.jpg",
+    image: "https://www.allrecipes.com/thmb/YT42IgbDvUCYnjxj2ycN21Vr628=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-236359-beef-and-rice-stuffed-bell-peppers-DDMFS-4x3-beauty-dd9458de98884d4eb362354ee626d70e.jpg",
     description: "Peppers filled with turkey, rice, and veggies.",
     instructions: "1. Cook ground turkey. 2. Mix with rice and tomato. 3. Stuff into halved peppers. 4. Bake 25 mins at 375°F."
   },
   {
     title: "Oatmeal Energy Balls",
-    image: "https://www.eatingwell.com/thmb/ucFPll7B6KQ1gHaNvd8v79GQdeU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/no-bake-oatmeal-energy-balls-62bfa67c8cf84dbf91dc2043ae061dc5.jpg",
+    image: "https://www.eatingwell.com/thmb/W2iHiPHxci5CfSjD3KFQxTKR2NI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/258084-peanut-butter-energy-balls-beauty-742f9126aa1e43f785920d9d5a47a1c3.jpg",
     description: "No-bake, high-protein snack for on-the-go.",
     instructions: "1. Mix oats, peanut butter, honey, chocolate chips. 2. Roll into balls. 3. Chill in fridge for 30 mins."
   },
   {
     title: "Egg Muffins with Veggies",
-    image: "https://www.eatingwell.com/thmb/SzMQw3ZDBzH2kHzo9JJKUpNq4IY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/egg-muffins-veg-34708e881a2e4a5bbd6b9df620ad1b10.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDefxx3gw2WpvcA_wfJS49f3mImRioitOxg&s",
     description: "Meal-prep breakfast muffins loaded with veggies.",
     instructions: "1. Whisk eggs with milk. 2. Add diced peppers, spinach, onion. 3. Pour into muffin tin. 4. Bake 20 mins at 375°F."
   },
   {
     title: "Sweet Potato Tacos",
-    image: "https://www.eatingwell.com/thmb/bNpNwr_lWucO-CrdBSxrg1tOgJ8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sweet-potato-tacos-6fdb1f7c4f4c4c10bfb189eb75a7e1c3.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrV1szZHL0jTVlrmNGMQUpZB_0R0O0h7GxFQ&s",
     description: "Tacos with roasted sweet potatoes and black beans.",
     instructions: "1. Roast cubed sweet potatoes. 2. Warm tortillas. 3. Fill with beans, sweet potatoes, avocado, and salsa."
   },
   {
     title: "Asian Chicken Lettuce Cups",
-    image: "https://www.eatingwell.com/thmb/NiKNsSgnEVgWObMEAc5JW5RWzLw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-lettuce-cups-1a2e81df8f3d4e36a88c54eb8cb8b340.jpg",
+    image: "https://joyfoodsunshine.com/wp-content/uploads/2016/02/asian-chicken-lettuce-wraps-2-e1564869964220.jpg",
     description: "Low-carb lettuce cups with savory Asian chicken.",
     instructions: "1. Sauté ground chicken with soy sauce, ginger, garlic. 2. Spoon into lettuce leaves. 3. Garnish with green onions."
   },
   {
     title: "Baked Tilapia with Veggies",
-    image: "https://www.eatingwell.com/thmb/UlfnUtBF0h_6w6rFb1nRnBbWIko=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/baked-tilapia-sheet-pan-e693f1b1b2e64b5f8bb5f01e982e195b.jpg",
+    image: "https://images.getrecipekit.com/20240130185719-baked-tilapia-veggies.jpg?width=650&quality=90&",
     description: "Easy sheet-pan meal with fish and vegetables.",
     instructions: "1. Place tilapia and veggies on tray. 2. Add olive oil and herbs. 3. Bake at 375°F for 20 mins."
   },
   {
     title: "Protein Smoothie Bowl",
-    image: "https://www.eatingwell.com/thmb/fF_vRA8J7UOE98MInrT6RMGv-qE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/smoothie-bowl-0279c23995e44f19aebcb2c0ec235e6a.jpg",
+    image: "https://bakerita.com/wp-content/uploads/2017/03/Chocolate-Peanut-Butter-Smoothie-Bowl-10.jpg",
     description: "Thick smoothie bowl with protein and fruit toppings.",
     instructions: "1. Blend banana, spinach, yogurt, protein powder. 2. Pour into a bowl. 3. Top with berries, seeds, and granola."
   },
   {
     title: "Lentil Soup",
-    image: "https://www.eatingwell.com/thmb/6ifMiFADGwXplRJY6o2qvVsmKgc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/lentil-soup-cc4b6e9b7a5b468f9848dfc3fd39556e.jpg",
+    image: "https://www.allrecipes.com/thmb/UeFtapHyGFBo4Lx-72GxgjrOGnk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13978-lentil-soup-DDMFS-4x3-edfa47fc6b234e6b8add24d44c036d43.jpg",
     description: "Warming, protein-rich vegetarian lentil soup.",
     instructions: "1. Sauté garlic, onion, carrot. 2. Add lentils, broth, tomato paste. 3. Simmer for 40 mins. 4. Serve with lemon wedge."
   }
