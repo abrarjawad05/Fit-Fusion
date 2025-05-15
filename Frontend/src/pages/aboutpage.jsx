@@ -8,11 +8,11 @@ export default function AboutUsPage() {
                 <div className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
                     <div className="mx-auto max-w-lg text-left">
                         <h1 className="text-4xl font-extrabold sm:text-5xl text-gray-900 dark:text-white mb-6">
-                            About <span className="text-teal-500">Fitness Matrix</span>
+                            About <span className="text-teal-500">Fit Fusion</span>
                         </h1>
 
                         <p className="mt-4 text-gray-600 dark:text-gray-300">
-                            Fitness Matrix is more than just a fitness platform. We are a movement dedicated
+                            Fit Fusion is more than just a fitness platform. We are a movement dedicated
                             to empowering individuals to take control of their health and wellness. Whether
                             you are a beginner or an advanced athlete, our personalized plans, expert guidance,
                             and intuitive tools help you reach your goals effectively.
@@ -52,3 +52,4 @@ export default function AboutUsPage() {
         </div>
     );
 }
+
