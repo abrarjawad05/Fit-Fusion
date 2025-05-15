@@ -9,7 +9,7 @@ const recipes = [
   },
   {
     title: "Spinach & Mushroom Quiche",
-    image: " ",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCWWUldPfPWn-elhe6j10ls4zBhM_heoh2g&s ",
     description: "Healthy breakfast or dinner option full of vegetables.",
     instructions: "1. Preheat oven to 375°F. 2. Sauté mushrooms and spinach. 3. Whisk eggs and milk. 4. Combine and pour into crust. 5. Bake for 35 mins."
   },
@@ -27,31 +27,31 @@ const recipes = [
   },
   {
     title: "Salmon & Asparagus Sheet Pan",
-    image: "https://www.eatingwell.com/thmb/oCUAX_hFe_S2zj7E_9km3cyqV8A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/salmon-asparagus-sheet-pan-cf5c8b08e0ce4ef69e66b8770d75e23b.jpg",
+    image: "https://www.wyseguide.com/wp-content/uploads/2022/05/Sheet-Pan-Salmon-Asparagus-31.jpg",
     description: "A full meal cooked on one pan in under 30 minutes.",
     instructions: "1. Place salmon and asparagus on sheet. 2. Drizzle with olive oil and lemon juice. 3. Bake at 400°F for 20 mins."
   },
   {
     title: "Quinoa & Black Bean Bowl",
-    image: "https://www.eatingwell.com/thmb/_BNaVuqqV4q5kJ6LppRYhfJcK4Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/quinoa-black-bean-bowl-6e6bd12e54f54834891eb57ec2b222a5.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGx41tO1hZ00UK1r1aWmcL-yDxNlda2GgNnA&s",
     description: "A vegetarian power bowl loaded with protein and fiber.",
     instructions: "1. Cook quinoa. 2. Mix with black beans, corn, tomato. 3. Top with lime juice and avocado slices."
   },
   {
     title: "Greek Yogurt Chicken Salad",
-    image: "https://www.eatingwell.com/thmb/dDEIep1uPTfHyzPSZntnEF_ZB-Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/greek-yogurt-chicken-salad-847d74858b8b4c6c9f53b8e4dc541d9b.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyiZ4p9Jgz6rCxdS0CBo2iLJVUvV0cPI9Og&s",
     description: "Classic chicken salad lightened up with Greek yogurt.",
     instructions: "1. Shred cooked chicken. 2. Mix with Greek yogurt, celery, grapes, and almonds. 3. Chill and serve in lettuce cups or bread."
   },
   {
     title: "Shrimp Stir-Fry",
-    image: "https://www.eatingwell.com/thmb/mzPKNTbqBzrJds2mF2ybYemQ1f4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/shrimp-vegetable-stirfry-b194ae909f6d41cd8eab5aa17fbe1fc4.jpg",
+    image: "https://www.allrecipes.com/thmb/KHlZo_h4JG_qqprsQynZDlbLub4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-231681-shrimp-stir-fry-VAT-4x3-2-a15b87781ad0438c9d1f90769e734cb4.jpg",
     description: "Quick and colorful shrimp stir-fry with veggies.",
     instructions: "1. Sauté shrimp in sesame oil. 2. Add bell peppers, broccoli, soy sauce. 3. Cook for 5-7 mins. Serve over brown rice."
   },
   {
     title: "Zucchini Noodles with Pesto",
-    image: "https://www.eatingwell.com/thmb/XB8wEF4fFscsmBo_i1SOuvKTf5E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/zucchini-noodles-pesto-6bcb9d28e3d14c8bb37f1355d7fcf702.jpg",
+    image: "https://www.plantbasedcooking.com/wp-content/uploads/2023/10/Zucchini-Noodles-with-Pesto-480x270.jpg",
     description: "Low-carb noodles made from zucchini with fresh pesto.",
     instructions: "1. Spiralize zucchini. 2. Sauté lightly. 3. Toss with homemade or store-bought pesto. 4. Serve warm."
   },
