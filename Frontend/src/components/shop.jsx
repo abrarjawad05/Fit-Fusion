@@ -49,7 +49,7 @@ function Shop() {
       name: "Animal Pak",
       category: "Vitamins",
       price: 4300,
-      imageUrl: "https://authenticsupplementbd.com/wp-content/uploads/2020/07/Animal-Pak.jpg",
+      imageUrl: "https://gymsupplementsbd.com/wp-content/uploads/2021/07/animal-pak-44-serving-06-600x600.jpg",
       buyLink: "https://authenticsupplementbd.com/product/animal-pak/",
     },
     // Pre-Workout Products
