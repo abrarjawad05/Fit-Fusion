@@ -74,7 +74,7 @@ function Shop() {
       name: "Muscletech Vapor X5",
       category: "Pre-Workout",
       price: 3500,
-      imageUrl: "https://gymsupplementsbd.com/wp-content/uploads/2020/07/Muscletech-Vapor-X5.jpg",
+      imageUrl: "https://gymsupplementsbd.com/wp-content/uploads/2024/05/Muscletech-Vapor-X5-01-gymsupplementsbd.jpg",
       buyLink: "https://gymsupplementsbd.com/product/muscletech-vapor-x5-ripped/",
     },
   ];
