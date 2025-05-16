@@ -13,12 +13,14 @@ export const AuthProvider = ({ children }) => {
         const userId = localStorage.getItem("userId");
 
         if (token && userId) {
+            console.log("Fetching user data...");
             axios
-                .get(`${backend}/users/${userId}`, {
+                .get(`${backend}/api/users/${userId}`, {
                     headers: { Authorization: `Bearer ${token}` },
                 })
                 .then((response) => {
-                    setUser(response.data); // Set user data
+                    console.log("User data fetched:", response.data);
+                    setUser(response.data); 
                 })
                 .catch((error) => {
                     console.error("Authentication error:", error);
@@ -31,15 +33,16 @@ export const AuthProvider = ({ children }) => {
         }
     }, []);
 
-    // Handle user login
     const login = (token, userId) => {
         localStorage.setItem("authToken", token);
         localStorage.setItem("userId", userId);
+
         axios
-            .get(`${backend}/users/${userId}`, {
+            .get(`${backend}/api/users/${userId}`, {
                 headers: { Authorization: `Bearer ${token}` },
             })
             .then((response) => {
+                console.log("User logged in:", response.data);
                 setUser(response.data);
             })
             .catch((error) => {
@@ -47,7 +50,6 @@ export const AuthProvider = ({ children }) => {
             });
     };
 
-    // Handle user logout
     const logout = () => {
         localStorage.removeItem("authToken");
         localStorage.removeItem("userId");
