@@ -14,8 +14,8 @@ const DietChart = () => {
         { item: "Oatmeal with fruits", calories: 300, protein: 10, carbs: 50, fat: 5, image: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { item: "Scrambled eggs with toast", calories: 350, protein: 20, carbs: 30, fat: 15, image: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { item: "Smoothie with nuts", calories: 250, protein: 8, carbs: 35, fat: 10, image: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { item: "Avocado Toast", calories: 380, protein: 9, carbs: 35, fat: 20, image: "https://images.unsplash.com/photo-1604087382760-bbfc4088f2ba?q=80&w=2400&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { item: "Greek Yogurt Parfait", calories: 320, protein: 15, carbs: 45, fat: 10, image: "https://images.unsplash.com/photo-1599030900060-b52f01f9db70?q=80&w=2160&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+        { item: "Avocado Toast", calories: 380, protein: 9, carbs: 35, fat: 20, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9AIvAc6dkD5GTVhVASi91F4Jc4n7AbOFhw&s" },
+        { item: "Greek Yogurt Parfait", calories: 320, protein: 15, carbs: 45, fat: 10, image: "https://tealnotes.com/wp-content/uploads/2023/05/Greek-Yogurt-Parfait-1.jpg" }
       ]
     },
     {
@@ -25,7 +25,7 @@ const DietChart = () => {
         { item: "Vegetable stir-fry with rice", calories: 400, protein: 15, carbs: 60, fat: 8, image: "https://images.unsplash.com/photo-1591120583691-49d2741e55da?q=80&w=1936&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { item: "Salmon with sweet potato", calories: 450, protein: 35, carbs: 40, fat: 15, image: "https://images.unsplash.com/photo-1591120583691-49d2741e55da?q=80&w=1936&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { item: "Chicken Caesar Salad", calories: 550, protein: 35, carbs: 25, fat: 28, image: "https://images.unsplash.com/photo-1582034986517-30d163aa1da9?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { item: "Turkey Avocado Wrap", calories: 420, protein: 30, carbs: 40, fat: 15, image: "https://images.unsplash.com/photo-1600463437725-229a98125cd5?q=80&w=2400&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+        { item: "Turkey Avocado Wrap", calories: 420, protein: 30, carbs: 40, fat: 15, image: "https://californiaavocado.com/wp-content/uploads/2020/07/Turkey-California-Avocado-Lavosh-Wrap-1.jpeg" }
       ]
     },
     {
@@ -34,8 +34,8 @@ const DietChart = () => {
         { item: "Grilled vegetables with tofu", calories: 400, protein: 20, carbs: 40, fat: 10, image: "https://images.unsplash.com/photo-1528216142275-f64d7a59d8d5?q=80&w=2094&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { item: "Pasta with marinara sauce", calories: 350, protein: 12, carbs: 55, fat: 8, image: "https://images.unsplash.com/photo-1528216142275-f64d7a59d8d5?q=80&w=2094&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { item: "Soup with whole-grain bread", calories: 300, protein: 10, carbs: 45, fat: 5, image: "https://images.unsplash.com/photo-1528216142275-f64d7a59d8d5?q=80&w=2094&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { item: "Beef Stir Fry with Veggies", calories: 500, protein: 40, carbs: 50, fat: 15, image: "https://images.unsplash.com/photo-1604603427866-e06e34023c8e?q=80&w=1500&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { item: "Chicken Fajitas with Guacamole", calories: 600, protein: 45, carbs: 45, fat: 20, image: "https://images.unsplash.com/photo-1611776977555-88b7f04c26bc?q=80&w=2500&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+        { item: "Beef Stir Fry with Veggies", calories: 500, protein: 40, carbs: 50, fat: 15, image: "https://www.allrecipes.com/thmb/7N-Xq1XMMJw8G0KJv2e0ETUYB2I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/228823-quick-beef-stir-fry-DDMFS-4x3-1f79b031d3134f02ac27d79e967dfef5.jpg" },
+        { item: "Chicken Fajitas with Guacamole", calories: 600, protein: 45, carbs: 45, fat: 20, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmJLe06HNezAS0C0SEkCn4tK5hjG9_iUTbQ&s" }
       ]
     },
     {
@@ -43,9 +43,9 @@ const DietChart = () => {
       options: [
         { item: "Yogurt with granola", calories: 150, protein: 6, carbs: 20, fat: 4, image: "https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1600&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { item: "Almonds (1 oz)", calories: 160, protein: 6, carbs: 6, fat: 14, image: "https://images.unsplash.com/photo-1590080876351-941da357bde6?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { item: "Apple with peanut butter", calories: 250, protein: 6, carbs: 30, fat: 14, image: "https://images.unsplash.com/photo-1589927986089-35812378d67f?q=80&w=1600&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { item: "Hard-boiled eggs (2)", calories: 140, protein: 12, carbs: 1, fat: 10, image: "https://images.unsplash.com/photo-1512555324158-8b28b9a30743?q=80&w=1930&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { item: "Protein bar", calories: 200, protein: 20, carbs: 15, fat: 8, image: "https://images.unsplash.com/photo-1614570155364-d47c4f3a5604?q=80&w=1536&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+        { item: "Apple with peanut butter", calories: 250, protein: 6, carbs: 30, fat: 14, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShIx_p4oK_6zy9ouB6dRSysUiy1U9sB16UBA&s" },
+        { item: "Hard-boiled eggs (2)", calories: 140, protein: 12, carbs: 1, fat: 10, image: "https://www.southernliving.com/thmb/QMMXuEZuKQm68Eq2FG_xiHi-uxg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-989213926-2000-6dd8cb1d388b425fac753292031410c9.jpg" },
+        { item: "Protein bar", calories: 200, protein: 20, carbs: 15, fat: 8, image: "https://media.self.com/photos/61b225b86013c481c4864f0c/2:1/w_2580,c_limit/1-Coconut-Chocolate-Peanut-Butter-Protein-Bars.jpg" }
       ]
     }
   ];
