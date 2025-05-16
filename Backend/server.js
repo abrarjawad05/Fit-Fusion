@@ -1,14 +1,13 @@
-require('dotenv').config()
-const express = require('express')
+require('dotenv').config();
+const express = require('express');
 const mongoose = require('mongoose');
-const app = express()
-const cors = require('cors')
-const userRoutes = require('./routes/UserRoutes')
-const progressRoutes = require("./routes/ProgressRoutes");
+const app = express();
+const cors = require('cors');
+const userRoutes = require('./routes/UserRoutes');
+const progressRoutes = require('./routes/ProgressRoutes');
 
-
-const PORT = process.env.PORT || 3500
-const mongoString = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@fitfusion.bl3ruao.mongodb.net/?retryWrites=true&w=majority&appName=FitFusion`
+const PORT = process.env.PORT || 3500;
+const mongoString = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@fitfusion.bl3ruao.mongodb.net/?retryWrites=true&w=majority&appName=FitFusion`;
 
 // Middleware
 app.use(cors());
@@ -16,25 +15,29 @@ app.use(express.json());
 
 // Database connection
 mongoose.connect(mongoString)
-    .then(() => console.log("Database connected successfully"))
+    .then(() => console.log(" Database connected successfully"))
     .catch((err) => {
-        console.error("Database connection error:", err);
+        console.error(" Database connection error:", err);
         process.exit(1);
     });
 
-// Routes
+// Route Registration with Debugging Logs
+console.log(" Registering user routes at /api/users");
 app.use('/api/users', userRoutes);
-app.use("/api/progress", progressRoutes);
+
+console.log(" Registering progress routes at /api/progress");
+app.use('/api/progress', progressRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
-    console.error(err.stack);
+    console.error(" Error Middleware - Error Stack:", err.stack);
     res.status(500).json({ message: 'Something went wrong!' });
 });
 
-// 404 handler
+// 404 handler with enhanced logging
 app.use((req, res) => {
-    res.status(404).json({ message: 'Route not found' });
+    console.warn(`404 - Route not found: ${req.method} ${req.originalUrl}`);
+    res.status(404).json({ message: `Route not found: ${req.originalUrl}` });
 });
 
 app.listen(PORT, () => {
