@@ -13,7 +13,7 @@ export default function ServicesPage() {
                         </h1>
 
                         <p className="mt-4 text-gray-300">
-                            Fitness Matrix offers a variety of services tailored to support your
+                            Fit Fusion offers a variety of services tailored to support your
                             wellness journey. Whether you are just starting out or are a fitness enthusiast,
                             we have the tools and guidance to help you thrive.
                         </p>

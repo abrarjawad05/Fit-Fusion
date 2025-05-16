@@ -28,14 +28,14 @@ function Banner() {
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">
         <a
-          href="#"
+          href="createaccount"
           className="block w-full rounded bg-teal-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
         >
           Get Started
         </a>
 
         <a
-          href="#"
+          href="/about"
           className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-teal-600 shadow hover:text-teal-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
         >
           Learn More
