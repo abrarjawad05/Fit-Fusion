@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const app = express()
 const cors = require('cors')
 const userRoutes = require('./routes/UserRoutes')
+const progressRoutes = require("./routes/ProgressRoutes");
 
 
 const PORT = process.env.PORT || 3500
@@ -23,6 +24,7 @@ mongoose.connect(mongoString)
 
 // Routes
 app.use('/api/users', userRoutes);
+app.use("/api/progress", progressRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
