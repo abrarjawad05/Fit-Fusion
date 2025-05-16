@@ -10,6 +10,7 @@ const YogaMeditationGrid = () => {
       category: "Yoga",
       thumbnail: "https://images.unsplash.com/photo-1488228469209-c141f8bcd723?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "https://youtu.be/4pKly2JojMw?si=9gP-kt99mRQqHHh7"
+    
     },
     {
       id: 2,
@@ -17,7 +18,7 @@ const YogaMeditationGrid = () => {
       duration: "5 mins",
       category: "Meditation",
       thumbnail: "https://images.unsplash.com/photo-1591228127791-8e2eaef098d3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "https://www.youtube.com/watch?v=def456"
+      link: "https://youtu.be/inpok4MKVLM?si=m40qnSjPPcxHE4yz"
     },
     {
       id: 3,
@@ -25,7 +26,7 @@ const YogaMeditationGrid = () => {
       duration: "20 mins",
       category: "Yoga",
       thumbnail: "https://images.unsplash.com/photo-1526718583451-e88ebf774771?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "https://www.youtube.com/watch?v=ghi789"
+      link: "https://youtu.be/tD_l3fDTFyg?si=hPMCbGyfWJUeb6YB"
     },
     {
       id: 4,
